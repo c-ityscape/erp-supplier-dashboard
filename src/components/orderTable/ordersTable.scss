@@ -1,0 +1,38 @@
+.ordersTable {
+    padding: 10px;
+    background-color: #f8f4f1;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .filter-icon {
+      font-size: 18px;
+      color: #625750;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+  
+      th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #e0e2e4;
+      }
+  
+      th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+      }
+    }
+  }
+  

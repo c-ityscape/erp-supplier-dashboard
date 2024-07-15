@@ -1,0 +1,88 @@
+.order {
+    padding: 20px;
+    background-color: #e7edfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  
+    .topOrderDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .orderInfo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+  
+        .shoppingCartIcon {
+          font-size: 24px;
+          background-color: blue;
+          color: white;
+          padding: 10px;
+          border-radius: 30%;
+        }
+  
+        h2 {
+          font-size: 18px;
+          font-weight: bold;
+        }
+  
+        span {
+          color: grey;
+        }
+      }
+  
+      .viewAllButton {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: limegreen;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  
+    .bottomOrderDiv {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+  
+      .order-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        background-color: #e7edfe;
+        border-radius: 10px;
+  
+        div {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+  
+          .trendingIcon {
+            color: green;
+          }
+  
+          .percentage {
+            color: green;
+          }
+  
+          .upArrowIcon {
+            color: green;
+          }
+  
+          .boldText {
+            font-weight: bold;
+          }
+  
+          .greyText {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+  

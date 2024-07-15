@@ -1,0 +1,111 @@
+.payments {
+  padding: 10px;
+  background-color: #ffefe2;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-around;
+
+  .topPaymentDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+    .paymentInfo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+
+      .dollarIcon {
+        font-size: 24px;
+        background-color: orange;
+        color: white;
+        padding: 10px;
+        border-radius: 30%;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .bottomPaymentDiv {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-size: 12px;
+    justify-content: space-around;
+
+    .payment-box-1, .payment-box-2 {
+      
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+      border-radius: 10px;
+      justify-content: space-around;
+      .limeGreenBox {
+        background-color: limegreen;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+
+        p {
+          font-size: 12px;
+          font-weight: bold;
+          
+        }
+      }
+
+      .tomatoBox {
+        background-color: tomato;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+
+      .recieved, .balance {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        span{
+          font-weight: bold;
+        }
+
+        .trendingIconUp {
+          color: green;
+        }
+
+        .trendingIconDown {
+          color: red;
+        }
+
+        .percentage {
+          color: inherit; /* Inherit the color from the parent */
+        }
+
+        
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.barChartContainer {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      h1 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      .controls {
+        display: flex;
+        gap: 10px;
+  
+        .controlButton {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 5px;
+          background-color: #f0f0f0;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #e0e0e0;
+          }
+  
+          svg {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  
